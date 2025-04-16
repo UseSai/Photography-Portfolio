@@ -159,3 +159,110 @@ ul {
     margin-top: 88px;
     margin-left: 1080px;
 }
+
+.examples {
+    background: linear-gradient(90deg, #323e2a 0%, #101815 100%);
+    padding-bottom: 80px;
+}
+
+.examples__first-column {
+    
+}
+
+.examples__time {
+    padding-top: 155px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fc4308;
+}
+
+.examples__header {
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 105%;
+    letter-spacing: -0.07em;
+    color: #fc4308;
+}
+
+.examples__sign {
+    padding-top: 24px;
+    padding-bottom: 88px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fc4308;
+}
+
+.examples__button {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fc4308;
+    border: 1px solid #fc4308;
+    border-radius: 3px;
+    padding: 8px 16px 10px 16px;
+    width: 160px;
+    height: 38px;
+}
+
+.examples__second-column img {
+    width: 560px;
+    height: 640px;
+}
+
+.examples__first {
+    display: flex;
+    gap: 190px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.examples__second {
+    display: flex;
+    gap: 190px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.examples__third {
+    display: flex;
+    gap: 190px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.examples__fourth {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.examples__time-fourth {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fc4308;
+}
+
+.examples__fourth img {
+    padding-top: 60px;
+    padding-left: 65px;
+    padding-bottom: 50px;
+}
+
+.examples__button-fourth {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fc4308;
+    border: 1px solid #fc4308;
+    border-radius: 3px;
+    padding: 8px 16px 10px 16px;
+    width: 160px;
+    height: 38px;
+}
