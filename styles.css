@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -11,10 +12,6 @@ a {
 
 ul {
     list-style-type: none;
-}
-
-.header {
-    padding-top: 25px;
 }
 
 .container {
@@ -27,12 +24,6 @@ ul {
 .header__header {
     display: flex;
     gap: 492px;
-}
-
-.header__logo a {
-    display: flex;
-    gap: 10px;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
@@ -40,8 +31,14 @@ ul {
     color: #fc4308;
 }
 
-.header__nav {
-    
+.header__logo a {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #fc4308;
 }
 
 .header__list {
@@ -60,4 +57,105 @@ ul {
     padding: 8px 16px 10px 16px;
     width: 96px;
     height: 38px;
+}
+
+.intro {
+    background: linear-gradient(223deg, #0d1e20 0%, #313e2a 69.51%, #262d20 96.88%);
+    padding-top: 25px;
+}
+
+.intro__intro {
+    display: flex;
+}
+
+.intro__header {
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 105%;
+    color: #fc4308;
+    padding-top: 200px;
+}
+
+.intro__sign {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fc4308;
+    padding-top: 25px;
+    max-width: 430px;
+}
+
+.intro__first-column img {
+    margin-top: 25px;
+}
+
+.intro__first-column a {
+    
+}
+
+.intro__second-column {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.our-work {
+    background: #0e1513;
+    padding-bottom: 90px;
+}
+
+.our-work__header {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fc4308;
+    padding-top: 80px;
+}
+
+.our-work__images {
+    padding-top: 60px;
+    display: flex;
+    gap: 25px;
+}
+
+.our-work__year {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: rgba(252, 67, 8, 0.8);
+}
+
+.our-work__author {
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 105%;
+    letter-spacing: -0.07em;
+    color: #fc4308;
+}
+
+.our-work__image-first {
+}
+
+.our-work__image-second {
+}
+
+.our-work__image-third {
+}
+
+.our-work__button {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fc4308;
+    border: 1px solid #fc4308;
+    border-radius: 3px;
+    padding: 8px 16px 10px 16px;
+    width: 140px;
+    height: 38px;
+    margin-top: 88px;
+    margin-left: 1080px;
 }

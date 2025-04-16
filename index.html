@@ -4,29 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Photography Portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__header">
-                <div class="header__logo">
-                    <a href="#">
-                       <img src="./images/Logo.svg" alt="">
-                       <p>Capture Studio</p>
-                   </a>
+    <main class="main">
+        <section class="intro">
+            <div class="container">
+                <div class="header">
+                    <div class="header__header">
+                        <div class="header__logo">
+                            <a href="#">
+                               <img src="./images/Logo.svg" alt="">
+                               <p>Capture Studio</p>
+                           </a>
+                        </div>
+                        <div class="header__nav">
+                           <ul class="header__list">
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Portraits</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">Fine Art</a></li>
+                                <li><a class="header__contact" href="#">Contact</a></li>
+                           </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="header__nav">
-                   <ul class="header__list">
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Portraits</a></li>
-                        <li><a href="#">Fashion</a></li>
-                        <li><a href="#">Fine Art</a></li>
-                        <li><a class="header__contact" href="#">Contact</a></li>
-                   </ul>
+                <div class="intro__intro">
+                    <div class="intro__first-column">
+                        <h1 class="intro__header">We Capture the World</h1>
+                        <p class="intro__sign">At our studio, we don't just take pictures - we capture the world. Our passion for photography goes beyond just snapping a photo - we strive to create images that tell a story, evoke emotions, and capture the essence of the world around us.</p>
+                        <a class="intro__play-button" href="#"><img src="./images/PlayButton.png" alt=""></a>
+                    </div>
+                    <div class="intro__second-column">
+                        <img src="./images/introPhoto.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </section>
+
+        <section class="our-work">
+            <div class="container">
+                <h2 class="our-work__header">Our work</h2>
+                <div class="our-work__images">
+                    <div class="our-work__image-first">
+                        <img src="./images/our-work1.png" alt="">
+                        <p class="our-work__year">2018</p>
+                        <p class="our-work__author">Aisha Patel</p>
+                    </div>
+                    <div class="our-work__image-second">
+                        <img src="./images/our-work2.png" alt="">
+                        <p class="our-work__year">2021</p>
+                        <p class="our-work__author">Isabella Costa</p>
+                    </div>
+                    <div class="our-work__image-third">
+                        <img src="./images/our-work3.png" alt="">
+                        <p class="our-work__year">2022</p>
+                        <p class="our-work__author">Fatima Hassan</p>
+                    </div>
+                </div>
+                <div class="our-work__button">
+                    <a href="#">View all work</a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
