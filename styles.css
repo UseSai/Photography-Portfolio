@@ -89,10 +89,6 @@ ul {
     margin-top: 25px;
 }
 
-.intro__first-column a {
-    
-}
-
 .intro__second-column {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -135,15 +131,6 @@ ul {
     line-height: 105%;
     letter-spacing: -0.07em;
     color: #fc4308;
-}
-
-.our-work__image-first {
-}
-
-.our-work__image-second {
-}
-
-.our-work__image-third {
 }
 
 .our-work__button {
@@ -301,4 +288,76 @@ ul {
     padding: 8px 16px 10px 16px;
     width: 119px;
     height: 38px;
+}
+
+.footer {
+    background-color: #0e1513;
+}
+
+.footer__footer {
+    padding-top: 15px;
+    display: flex;
+    gap: 595px;
+    padding-bottom: 115px;
+}
+
+.footer__container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer__logo a {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #fc4308;
+}
+
+.footer__nav {
+
+}
+
+.footer__list {
+    display: flex;
+    gap: 28px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fc4308;
+}
+
+.footer__contact {
+    border: 1px solid #fc4308;
+    border-radius: 3px;
+    padding: 8px 16px 10px 16px;
+    width: 96px;
+    height: 38px;
+}
+
+small {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fc4308;
+}
+
+.footer__end {
+    border-top: 1px solid #fc4308;
+    padding: 32px 0px 0px 0px;
+    width: 1300px;
+    height: 56px;
+    display: flex;
+    gap: 830px;
+    padding-bottom: 45px;
+}
+
+.footer_social-media {
+    display: flex;
+    gap: 20px;
 }
