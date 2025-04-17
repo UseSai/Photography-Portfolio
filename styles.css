@@ -266,3 +266,39 @@ ul {
     width: 160px;
     height: 38px;
 }
+
+.contact {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fc4308;
+    background-color: #0e1513;
+    padding-bottom: 130px;
+}
+
+.contact__header {
+    padding-top: 120px;
+    max-width: 680px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 105%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #fc4308;
+}
+
+.contact__sign {
+    padding-top: 25px;
+    max-width: 680px;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+
+.contact__button {
+    border: 1px solid #fc4308;
+    border-radius: 3px;
+    padding: 8px 16px 10px 16px;
+    width: 119px;
+    height: 38px;
+}
